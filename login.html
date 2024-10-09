@@ -4,30 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/icon" href="./Assets/Images/Logo-Juanita.ico">    
+    <link rel="stylesheet" href="styles.css">
     <title>Log In</title>
 </head>
 <body>
 
-    <h1>Ingresar</h1>
-
-    <form action="" method="post">
+    <H1 class="title">Iniciar sesión</H1>
+    <form class="login" method="post">
+        <img rel="icon" type="image/icon" src="./Assets/Images/Logo-Juanita.ico"width="25" height="25" alt="Logo de la tienda">
         <div>
+            
             <label for="txtEmail">
                 <b>Email:</b>                
             </label>
-            <input type="email" name="txtEmail" id="txtEmail" required/>
+            <input class="text-box" type="email" name="txtEmail" id="txtEmail" required/>
             <br>
+        </div>
+
+        <div>
             <label for="txtPass">
                 <b>Contraseña:</b>                
             </label>
-            <input type="password" name="txtPass" id="txtPass" required/>
+            <input class="text-box" type="password" name="txtPass" id="txtPass" required/>
         </div>
-            <br>
+            <br><br>
         <div>
-            <input type="submit" value="Enviar"/>
+            <input class="btn" type="submit" value="Enviar"/>
+        </div>
+             <br><br>
+        <div>
+            <p >¿No tiene cuenta?  <a href="signup.html">Registrarse</a></p>
+           
         </div>
     </form>
-    <p>¿No tiene cuenta?</p>
-    <a href="signup.html">Registrarse</a>
+   
 </body>
 </html>
