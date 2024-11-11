@@ -1,4 +1,4 @@
-@import 'colors';
+@import './aux_scss/colors';
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 
 *{
@@ -179,15 +179,12 @@ body{
 }
   
 .container-cards{
-    display: grid;
-    flex-direction: row;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-    gap: 5rem;
-    grid-auto-flow: column wrap;
-    margin: 3rem;
-    justify-content: space-around;
-    align-items: baseline;
-    align-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)); /* Esto crea un grid responsive */
+  gap: 5rem; /* Espacio entre las cards */
+  margin: 3rem;
+  justify-content: center; /* Centra el grid en el contenedor */
+  align-items: start; /* Alinea los items al principio del contenedor */
   }
   .card-product {
     max-width: 380px;
