@@ -4,34 +4,33 @@ import { increaseQuantity } from "../components/variationQuantity.js";
 import { updateQuantity } from "../components/variationQuantity.js";
 
 let cardContainer = document.getElementById('cardContainer');
-
-let quantity = 0;
-
-let cardData = [
-    {title_card: 'Bombacha vedetina', url_img: 'producto.webp', description: 'Intimewear vedetina encaje cintura', price: '$7900', initialQuantity: quantity},
-    {title_card: 'Bombacha vedetina', url_img: 'producto.webp', description: 'Intimewear vedetina encaje cintura', price: '$7900', initialQuantity: quantity},
-    {title_card: 'Bombacha vedetina', url_img: 'producto.webp', description: 'Intimewear vedetina encaje cintura', price: '$7900', initialQuantity: quantity},
-    {title_card: 'Bombacha vedetina', url_img: 'producto.webp', description: 'Intimewear vedetina encaje cintura', price: '$7900', initialQuantity: quantity},
-    {title_card: 'Bombacha vedetina', url_img: 'producto.webp', description: 'Intimewear vedetina encaje cintura', price: '$7900', initialQuantity: quantity},
-    {title_card: 'Bombacha vedetina', url_img: 'producto.webp', description: 'Intimewear vedetina encaje cintura', price: '$7900', initialQuantity: quantity},
-    {title_card: 'Bombacha vedetina', url_img: 'producto.webp', description: 'Intimewear vedetina encaje cintura', price: '$7900', initialQuantity: quantity},
-    {title_card: 'Bombacha vedetina', url_img: 'producto.webp', description: 'Intimewear vedetina encaje cintura', price: '$7900', initialQuantity: quantity},
-    {title_card: 'Bombacha vedetina', url_img: 'producto.webp', description: 'Intimewear vedetina encaje cintura', price: '$7900', initialQuantity: quantity}
-];
+let cardData = [];
 
 window.addEventListener('load', () => {
-    const cards = cardData.map((e, index) => cardComponent(e, index)).join('');
-    cardContainer.innerHTML = cards;
+    fetch('../components/json_cards/products.json')
+        .then(response => response.json())
+        .then(data => {
+            cardData = data.Hombres.map(item => ({
+                title_card: item.ProductName,
+                url_img: item.urlImage,
+                description: item.description,
+                price: item.price,
+                initialQuantity: 0 
+            }));
 
-    const btnsQuit = document.querySelectorAll('.btn-quit');
-    const btnsAdd = document.querySelectorAll('.btn-add');
+            const cards = cardData.map((e, index) => cardComponent(e, index)).join('');
+            cardContainer.innerHTML = cards;
 
-    btnsQuit.forEach(btnQuit => {
-        btnQuit.addEventListener('click', decreaseQuantity);
-    });
+            const btnsQuit = document.querySelectorAll('.btn-quit');
+            const btnsAdd = document.querySelectorAll('.btn-add');
 
-    btnsAdd.forEach(btnAdd => {
-        btnAdd.addEventListener('click', increaseQuantity);
-    });
+            btnsQuit.forEach(btnQuit => {
+                btnQuit.addEventListener('click', decreaseQuantity);
+            });
+
+            btnsAdd.forEach(btnAdd => {
+                btnAdd.addEventListener('click', increaseQuantity);
+            });
+        })
+        .catch(error => console.error('Error al cargar el archivo JSON:', error));
 });
-

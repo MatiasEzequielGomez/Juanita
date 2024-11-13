@@ -1,0 +1,136 @@
+{
+    "Hombres":[
+    {
+      "ProductName": "Producto hombres 1",
+      "urlImage": "hombres.webp",
+      "description": "Descripcion Producto hombres 1",
+      "price": "$7100"
+    },
+    {
+        "ProductName": "Producto hombres 2",
+        "urlImage": "hombres.webp",
+        "description": "Descripcion Producto hombres 2",
+        "price": "$7200"
+      },
+      {
+        "ProductName": "Producto hombres 3",
+        "urlImage": "hombres.webp",
+        "description": "Descripcion Producto hombres 3",
+        "price": "$7300"
+      },
+      {
+        "ProductName": "Producto hombres 4",
+        "urlImage": "hombres.webp",
+        "description": "Descripcion Producto hombres 4",
+        "price": "$7400"
+      },
+      {
+        "ProductName": "Producto hombres 5",
+        "urlImage": "hombres.webp",
+        "description": "Descripcion Producto hombres 5",
+        "price": "$7500"
+      },
+      {
+        "ProductName": "Producto hombres 6",
+        "urlImage": "hombres.webp",
+        "description": "Descripcion Producto hombres 6",
+        "price": "$7600"
+      },
+      {
+        "ProductName": "Producto hombres 7",
+        "urlImage": "hombres.webp",
+        "description": "Descripcion Producto hombres 7",
+        "price": "$7700"
+      }
+    ],
+
+    "Mujeres" : [
+        {
+          "ProductName": "Producto mujeres 1",
+          "urlImage": "mujeres.webp",
+          "description": "Descripcion Producto mujeres 1",
+          "price": "$8100"
+        },
+        {
+            "ProductName": "Producto mujeres 2",
+            "urlImage": "mujeres.webp",
+            "description": "Descripcion Producto mujeres 2",
+            "price": "$8200"
+          },
+          {
+            "ProductName": "Producto mujeres 3",
+            "urlImage": "mujeres.webp",
+            "description": "Descripcion Producto mujeres 3",
+            "price": "$8300"
+          },
+          {
+            "ProductName": "Producto mujeres 4",
+            "urlImage": "mujeres.webp",
+            "description": "Descripcion Producto mujeres 4",
+            "price": "$8400"
+          },
+          {
+            "ProductName": "Producto mujeres 5",
+            "urlImage": "mujeres.webp",
+            "description": "Descripcion Producto mujeres 5",
+            "price": "$8500"
+          },
+          {
+            "ProductName": "Producto mujeres 6",
+            "urlImage": "mujeres.webp",
+            "description": "Descripcion Producto mujeres 6",
+            "price": "$8600"
+          },
+          {
+            "ProductName": "Producto mujeres 7",
+            "urlImage": "mujeres.webp",
+            "description": "Descripcion Producto mujeres 7",
+            "price": "$8700"
+          }
+    ],
+
+    "Niños": [
+        {
+          "ProductName": "Producto niños 1",
+          "urlImage": "niños.webp",
+          "description": "Descripcion Producto niños 1",
+          "price": "$6100"
+        },
+        {
+            "ProductName": "Producto niños 2",
+            "urlImage": "niños.webp",
+            "description": "Descripcion Producto niños 2",
+            "price": "$6200"
+          },
+          {
+            "ProductName": "Producto niños 3",
+            "urlImage": "niños.webp",
+            "description": "Descripcion Producto niños 3",
+            "price": "$6300"
+          },
+          {
+            "ProductName": "Producto niños 4",
+            "urlImage": "niños.webp",
+            "description": "Descripcion Producto niños 4",
+            "price": "$6400"
+          },
+          {
+            "ProductName": "Producto niños 5",
+            "urlImage": "niños.webp",
+            "description": "Descripcion Producto niños 5",
+            "price": "$6500"
+          },
+          {
+            "ProductName": "Producto niños 6",
+            "urlImage": "niños.webp",
+            "description": "Descripcion Producto niños 6",
+            "price": "$6600"
+          },
+          {
+            "ProductName": "Producto niños 7",
+            "urlImage": "niños.webp",
+            "description": "Descripcion Producto niños 7",
+            "price": "$6700"
+          }
+    ]
+}

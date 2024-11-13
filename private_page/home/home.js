@@ -10,14 +10,19 @@ window.addEventListener('load', () => {
     fetch('../components/json_cards/products.json')
         .then(response => response.json())
         .then(data => {
-            cardData = data.Mujeres.map(item => ({
-                title_card: item.ProductName,
-                url_img: item.urlImage,
-                description: item.description,
-                price: item.price,
+            cardData = [];
+            ['Hombres', 'Mujeres', 'Niños'].forEach(categoria => {
+                if (data[categoria]) {
+                    const productosCategoria = data[categoria].slice(0, 3).map(i => ({
+                title_card: i.ProductName,
+                url_img: i.urlImage,
+                description: i.description,
+                price: i.price,
                 initialQuantity: 0 
             }));
-
+            cardData = cardData.concat(productosCategoria);
+        }
+    });
             const cards = cardData.map((e, index) => cardComponent(e, index)).join('');
             cardContainer.innerHTML = cards;
 

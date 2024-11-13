@@ -7,12 +7,13 @@ export const cardComponent = (data) => {
             <div class="desc">
                 <p>${data.description}</p>
             </div>
+            <p class="price">${data.price}</p>
             <div class="card-footer">
-                <p class="price">${data.price}</p>
                 <button class="btn-quit">-</button>
                 <p class="cant">${data.initialQuantity}</p>
                 <button class="btn-add">+</button>
             </div>
+            <button class="btn">Añadir al carrito</button>
         </div>
     `;
 };
