@@ -1,12 +1,12 @@
 import { cardComponent } from "../components/card.js";
-import { decreaseQuantity } from "../components/variationQuantity.js";
-import { increaseQuantity } from "../components/variationQuantity.js";
-import { updateQuantity } from "../components/variationQuantity.js";
+import { decreaseQuantity, increaseQuantity, updateQuantity } from "../components/variationQuantity.js";
 
 let cardContainer = document.getElementById('cardContainer');
 let cardData = [];
 
 window.addEventListener('load', () => {
+
+
     fetch('../components/json_cards/products.json')
         .then(response => response.json())
         .then(data => {
@@ -39,3 +39,4 @@ window.addEventListener('load', () => {
         })
         .catch(error => console.error('Error al cargar el archivo JSON:', error));
 });
+

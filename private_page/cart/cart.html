@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/icon" href="../../Assets/Images/Logo-Juanita.ico">    
+    <link rel="stylesheet" href="../../styles/styles.css">
+    <title>Carrito de Compras</title>
+</head>
+<body>
+   
+
+    <div class="header-cart">
+        <h1 class="title title-form">Carrito de Compras</h1>
+    </div>
+       
+    <div class="layout-cart">
+        <div class="container-cart">
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th>Subtotal</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items"> 
+                  
+                </tbody>
+            </table>
+    
+            <div class="total">
+                <span id="cart-total" class="cart-total" ></span>
+            </div>
+            <div id="btn-cart-container" class="btn-cart-container">
+                <button class="btn-cancel btn" id="btn-cancel">Cancelar la compra</button>
+                <button class="btn-buy btn" id="btn-buy">Comprar</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./cart.js"></script>
+</body>
+</html>

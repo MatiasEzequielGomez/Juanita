@@ -26,10 +26,11 @@ export const navBar=` <nav class="navbar flex-nv">
                     }).join('')
                  }
                 </ul>
-              <div class="flex-item-nv flex-btn">
-        <a class="flex-item-btn btn" href="http://127.0.0.1:5501/public_page/login/login.html">Ingresar</a>
-        <button id="logOut" class="flex-item-btn btn">Cerrar sesión</button>
-    </div>
+             <div class="flex-item-nv flex-btn">
+                    <a class="flex-item-btn btn" href="http://127.0.0.1:5501/private_page/cart/cart.html">Ir al carrito</a>        
+                    <a class="flex-item-btn btn" href="http://127.0.0.1:5501/public_page/login/login.html">Ingresar</a>
+                    <button id="logOut" class="flex-item-btn btn">Cerrar sesión</button>
+                </div>
             </nav>`;
             
             

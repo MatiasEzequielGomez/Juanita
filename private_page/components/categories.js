@@ -1,20 +1,21 @@
 import { cardComponent } from "../components/card.js";
-import { decreaseQuantity } from "../components/variationQuantity.js";
-import { increaseQuantity } from "../components/variationQuantity.js";
-import { updateQuantity } from "../components/variationQuantity.js";
+import { decreaseQuantity, increaseQuantity, updateQuantity } from "../components/variationQuantity.js";
+
 
 let cardContainer = document.getElementById('cardContainer');
 let cardData = [];
 
 window.addEventListener('load', () => {
+    const categoria = cardContainer.getAttribute('data-category');
+
     fetch('../components/json_cards/products.json')
         .then(response => response.json())
         .then(data => {
-            cardData = data.Mujeres.map(item => ({
-                title_card: item.ProductName,
-                url_img: item.urlImage,
-                description: item.description,
-                price: item.price,
+            cardData = data[categoria].map(i => ({
+                title_card: i.ProductName,
+                url_img: i.urlImage,
+                description: i.description,
+                price: i.price,
                 initialQuantity: 0 
             }));
 
