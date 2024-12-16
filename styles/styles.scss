@@ -13,14 +13,16 @@ body{
     display: grid;
     height: 98vh;
     grid-template-areas: "header header"
-                         "siderbar  main"
+                         "pageTitle pageTitle"
+                         "sidebar  main"
                          "footer  footer";
-    grid-template-rows: 150px 1fr 80px;
-    grid-template-columns: 0px 1fr;
+    grid-template-rows: 150px 70px 1fr 80px;
+    grid-template-columns: .5fr 3fr;
   }
   
   .header { grid-area: header; }
-  .siderbar{ grid-area: siderbar;}
+  .pageTitle{ grid-area: pageTitle;}
+  .sidebar{ grid-area: sidebar;}
   .main { grid-area: main; }
   .footer { grid-area: footer; }
 
@@ -121,6 +123,7 @@ body{
   }
 
   .navbar{
+    
     background-color: $color-nb;
     box-shadow: 0px 21px 24px -4px rgba(0,0,0,0.36) inset;-webkit-box-shadow: 0px 21px 24px -4px rgba(0,0,0,0.36) inset;-moz-box-shadow: 0px 21px 24px -4px rgba(0,0,0,0.36) inset;      
 }
@@ -187,7 +190,12 @@ body{
   align-items: start; /* Alinea los items al principio del contenedor */
   }
   .card-product {
-    max-width: 380px;
+    max-width: 280px;
+    min-height: 450px; /* Altura mínima */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+
     padding: 1rem;
     background-color: rgba(172, 154, 177, 0);
     border-radius: 10px;
@@ -210,8 +218,14 @@ body{
   }
   .card-product img {
     width: 100%;
+    height: auto; /* Altura fija para las imágenes */
+
     box-shadow: 0px 0px 18px 11px rgba(19,10,20,0.26);
-  }
+    object-fit: cover;
+    }
+   
+
+
   .card-product p {
     text-align: center;
     margin-top: 1rem;
@@ -375,4 +389,133 @@ width: 90%;
   gap: 16px;
   align-items: flex-end;
   justify-content: space-between;
+}
+
+.sidebar{
+  width: 100%;
+  font-family: "Nerko One", cursive;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 2rem;
+  color: black;
+  font-size: 1rem;
+  align-items: center;
+justify-content:flex-start;
+
+   h2{
+    text-align: center;
+    font-family: "Nerko One", cursive;
+    font-size: 2rem;
+    color: $color-ctg;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #504a00;
+  text-shadow: 0px 0px 16px #5f5901c7;
+  padding-bottom: 1rem;
+   }
+  form{
+    align-self: center;
+    text-align: center;
+    padding: 1rem;
+    margin-left: 1rem;
+    background-color: rgba(172, 154, 177, 0);
+    border-radius: 10px;
+    box-shadow: 0px 0px 69px -6px rgba(0, 0, 0, 0.41);
+    text-align: center;
+    font-family: "DynaPuff", cursive;
+  }
+  label{
+    align-self: center;
+
+  }
+  select{
+    margin-bottom: 1rem;
+
+    text-align: center;
+    font-family: "Nerko One", cursive;
+    color: black;
+  font-size: 1rem;
+  }
+  option{
+    text-align: center;
+    font-family: "Nerko One", cursive;
+    color: black;
+  font-size: 1rem;
+  }
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-family: "Nerko One", cursive;
+  color: rgba(0, 0, 0, 0.87);
+background-color: $color-nb;
+box-shadow: 0px 21px 24px -4px rgba(0,0,0,0.36) inset;-webkit-box-shadow: 0px 21px 24px -4px rgba(0,0,0,0.36) inset;-moz-box-shadow: 0px 21px 24px -4px rgba(0,0,0,0.36) inset;      
+h3{
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+  ul{
+    list-style: none;
+    color:#ffffff;
+  }    
+  a{
+    text-decoration: none;
+    list-style: none;
+    color:#ffffff;
+  }
+}
+.redesFooter{
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+.menuFooter{
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+.contactoFooter{
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+.filterCategories{
+  text-align: center;
+  font-family: "Nerko One", cursive;
+  font-size: 2rem;
+  color: $color-ctg;
+  -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #504a00;
+text-shadow: 0px 0px 16px #5f5901c7;
+padding-bottom: 1rem;
+  a{
+    text-decoration: none;
+    color: $color-ctg;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #504a00;
+    text-shadow: 0px 0px 16px #5f5901c7;
+  }
+  a:hover{
+    color: #ebe9d3;
+    font-size: 30px;
+    transition: 1s;
+  }
+  li{
+    list-style: none;
+    margin-top: 3rem;
+
+  }
 }

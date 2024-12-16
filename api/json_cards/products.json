@@ -1,0 +1,370 @@
+{
+  "Hombres":{
+    "Ropa interior":[
+  {
+    "ProductName": "Boxer Trunk Classic Pink/White",
+    "urlImage": "Hombres/RopaInterior/ropaInterior1.webp",
+    "description": "Color Rosa con Elástico Blanco tejido con logo bajo relieve",
+    "price": 7100
+  },
+  {
+      "ProductName": "Boxer Trunk Classic Terra / White",
+      "urlImage": "Hombres/RopaInterior/ropaInterior2.webp",
+      "description": "Color Beige / Marrón Claro con Elástico blanco tejido y logo bajo relieve",
+      "price": 7200
+    },
+    {
+      "ProductName": "Boxer Trunk Classic Black / White",
+      "urlImage": "Hombres/RopaInterior/ropaInterior3.webp",
+      "description": "Color Negro con Elástico Blanco tejido",
+      "price": 7300
+    },
+    {
+      "ProductName": "Boxer Trunk Ultra Light Blue / Black",
+      "urlImage": "Hombres/RopaInterior/ropaInterior4.webp",
+      "description": "Color Azul Francia con Elástico Negro tejido",
+      "price": 7400
+    },
+    {
+      "ProductName": "Boxer Classic All Gray",
+      "urlImage": "Hombres/RopaInterior/ropaInterior5.webp",
+      "description": "Color Gris con Elástico sublimado gris y logo blanco",
+      "price": 7500
+    },
+    {
+      "ProductName": "Boxer Trunk Black Latitude Green",
+      "urlImage": "Hombres/RopaInterior/ropaInterior6.webp",
+      "description": "Color Negro con Elástico Bordado Negro, detalles de costura en verde fluo",
+      "price": 7600
+    }
+  ],
+  "Pijama":[
+    {
+      "ProductName": "Pijama de algodón 1950",
+      "urlImage": "Hombres/Pijamas/pijama1.webp",
+      "description": "Pijama de hombre manga corta escote redondo, de jersey algodón natural",
+      "price": 7100
+    },
+    {
+        "ProductName": "Pijama invierno de hombre",
+        "urlImage": "Hombres/Pijamas/pijama2.webp",
+        "description": "Escote redondo manga larga rayado combinado, de algodón natural y poliester",
+        "price": 7200
+      },
+      {
+        "ProductName": "Pijama largo de algodón y lycra",
+        "urlImage": "Hombres/Pijamas/pijama3.webp",
+        "description": "Escote O, pantalón liso con bolsillos laterales",
+        "price": 7300
+      },
+      {
+        "ProductName": "Pijama de algodón y lycra",
+        "urlImage": "Hombres/Pijamas/pijama4.webp",
+        "description": "Pijama de hombre escote redondo manga larga. Pantalón camuflado",
+        "price": 7400
+      },
+      {
+        "ProductName": "Pijama de hombre, escote redondo",
+        "urlImage": "Hombres/Pijamas/pijama5.webp",
+        "description": "Tejido suave, resistente, duradero e hipoalergénico",
+        "price": 7500
+      },
+      {
+        "ProductName": "Pijama de hombre, escote redondo",
+        "urlImage": "Hombres/Pijamas/pijama6.webp",
+        "description": "Tejido suave, resistente, duradero e hipoalergénico",
+        "price": 7600
+      }
+    ],
+    "Medias":[
+      {
+        "ProductName": "1/2 Caña hombre ED Homme",
+        "urlImage": "Hombres/Medias/medias1.webp",
+        "description": "1/2 caña de hombre con motivo",
+        "price": 7100
+      },
+      {
+          "ProductName": "Medias tobilleras hombre Homme",
+          "urlImage": "Hombres/Medias/medias2.webp",
+          "description": "Medias tobilleras hombre",
+          "price": 7200
+        },
+        {
+          "ProductName": "Medias tobilleras hombre Argentina",
+          "urlImage": "Hombres/Medias/medias3.webp",
+          "description": "Medias tobilleras hombre con motivo Argentina",
+          "price": 7300
+        },
+        {
+          "ProductName": "Soquete sport hombre Homme Sporty",
+          "urlImage": "Hombres/Medias/medias4.webp",
+          "description": "Soquete deportivo hombre Sport",
+          "price": 7400
+        },
+        {
+          "ProductName": "Soquetes hombre Homme Rayado",
+          "urlImage": "Hombres/Medias/medias5.webp",
+          "description": "Par de medias soquetes hombre rayados",
+          "price": 7500
+        },
+        {
+          "ProductName": "Soquete hombre Rain",
+          "urlImage": "Hombres/Medias/medias6.webp",
+          "description": "Descripcion Medias hombres 6",
+          "price": 7600
+        },
+        {
+          "ProductName": "Soquetes hombre Army",
+          "urlImage": "Hombres/Medias/medias1.webp",
+          "description": "Soquetes hombre camuflados",
+          "price": 7700
+        }
+      ]
+},
+
+  "Mujeres" : {
+    "Ropa interior":[
+  {
+    "ProductName": "Conjunto taza soft y culotte less Everyday",
+    "urlImage": "Mujeres/RopaInterior/ropaInterior1.webp",
+    "description": "Conjunto en algodon y lycra de triangulo taza soft y culotte less",
+    "price": 7100
+  },
+  {
+      "ProductName": "Corpiño sin taza Everyday",
+      "urlImage": "Mujeres/RopaInterior/ropaInterior2.webp",
+      "description": "Corpiño en microfibra triangulo sin taza con breteles desmontables",
+      "price": 7200
+    },
+    {
+      "ProductName": "Corpiño triángulo taza soft Everyday",
+      "urlImage": "Mujeres/RopaInterior/ropaInterior3.webp",
+      "description": "Corpiño en microfibra triangulo taza soft con breteles desmontables",
+      "price": 7300
+    },
+    {
+      "ProductName": "Conjunto triángulo y colaless Everyday Cotton",
+      "urlImage": "Mujeres/RopaInterior/ropaInterior4.webp",
+      "description": "Conjunto de algodón y lycra triángulo con base y colaless",
+      "price": 7400
+    },
+    {
+      "ProductName": "Conjunto corpiño sin aro y short Vienna",
+      "urlImage": "Mujeres/RopaInterior/ropaInterior5.webp",
+      "description": "Conjunto en bambula corpiño sin aro bralette y short",
+      "price": 7500
+    },
+    {
+      "ProductName": "Conjunto corpiño sin aro y colaless Melody",
+      "urlImage": "Mujeres/RopaInterior/ropaInterior6.webp",
+      "description": "Conjunto en algodón y lycra corpiño sin aro bralette y colaless con puntilla",
+      "price": 7600
+    },
+    {
+      "ProductName": "Conjunto corpiño sin aro y colaless Carol",
+      "urlImage": "Mujeres/RopaInterior/ropaInterior7.webp",
+      "description": "Conjunto en microfibra y tul corpiño sin aro bralette y colaless",
+      "price": 7700
+    }
+  ],
+  "Pijama":[
+    {
+      "ProductName": "Pijama manga corta y short Gruta",
+      "urlImage": "Mujeres/Pijamas/pijama1.webp",
+      "description": "Pijama de jersey estampado batik, remera manga corta con nudo y short",
+      "price": 7100
+    },
+    {
+        "ProductName": "Pijama con breteles y short Carrie",
+        "urlImage": "Mujeres/Pijamas/pijama2.webp",
+        "description": "Pijama de jersey musculosa con breteles, con tiras y frunce en escote y short estampado",
+        "price": 7200
+      },
+      {
+        "ProductName": "Pijama musculosa y short Arraial",
+        "urlImage": "Mujeres/Pijamas/pijama3.webp",
+        "description": "Pijama de jersey, musculosa lisa con estampa y short estampado",
+        "price": 7300
+      },
+      {
+        "ProductName": "Pijama musculosa y short Niza",
+        "urlImage": "Mujeres/Pijamas/pijama4.webp",
+        "description": "Pijama de jersey, musculosa estampada con frunce en escote y short liso",
+        "price": 7400
+      },
+      {
+        "ProductName": "Pijama con breteles y short Leblon",
+        "urlImage": "Mujeres/Pijamas/pijama5.webp",
+        "description": "Pijama de jersey estampado, musculosa con breteles y short con detalles en puntilla",
+        "price": 7500
+      },
+      {
+        "ProductName": "Camisolín Leblon",
+        "urlImage": "Mujeres/Pijamas/pijama6.webp",
+        "description": "Camisolín de jersey estampado con breteles y detalles en puntilla",
+        "price": 7600
+      },
+      {
+        "ProductName": "Pijama musculosa y short Cabo",
+        "urlImage": "Mujeres/Pijamas/pijama7.webp",
+        "description": "Pijama de jersey estampado, musculosa con breteles y short",
+        "price": 7700
+      }
+    ],
+    "Medias":[
+      {
+        "ProductName": "Medias Tobilleras Preppy",
+        "urlImage": "Mujeres/Medias/medias1.webp",
+        "description": "Medias tobilleras con motivo Preppy",
+        "price": 7100
+      },
+      {
+          "ProductName": "Soquetes deportivos MK Sport",
+          "urlImage": "Mujeres/Medias/medias2.webp",
+          "description": "Soquetes deportivos con textura tejida",
+          "price": 7200
+        },
+        {
+          "ProductName": "Invisibles Nido",
+          "urlImage": "Mujeres/Medias/medias3.webp",
+          "description": "Invisibles dama textura tejida",
+          "price": 7300
+        },
+        {
+          "ProductName": "Soquetes Carrie",
+          "urlImage": "Mujeres/Medias/medias4.webp",
+          "description": "Soquetes dama con motivo Carrie",
+          "price": 7400
+        },
+        {
+          "ProductName": "Soquetes Blossom",
+          "urlImage": "Mujeres/Medias/medias5.webp",
+          "description": "Soquetes dama con motivo Blossom",
+          "price": 7500
+        },
+        {
+          "ProductName": "Invisibles Butterfly",
+          "urlImage": "Mujeres/Medias/medias6.webp",
+          "description": "Invisibles dama con motivo Butterfly",
+          "price": 7600
+        },
+        {
+          "ProductName": "3/4 extra térmica Vichy",
+          "urlImage": "Mujeres/Medias/medias7.webp",
+          "description": "3/4 extra térmica dama con motivo Vichy",
+          "price": 7700
+        }
+      ]
+},
+
+  "Niños": {
+    "Ropa interior":[
+  {
+    "ProductName": "BOXER BASIC CUSTOMER 4-12",
+    "urlImage": "Niños/RopaInterior/ropaInterior1.webp",
+    "description": "Boxer Basic Customer hecho de ribb",
+    "price": 7100
+  },
+  {
+      "ProductName": "BOXER COLE 4-12",
+      "urlImage": "Niños/RopaInterior/ropaInterior2.webp",
+      "description": "Boxer Cole, cintura con elástico y botón decorativo",
+      "price": 7200
+    },
+    {
+      "ProductName": "BOXER STRIPES 4-12",
+      "urlImage": "Niños/RopaInterior/ropaInterior3.webp",
+      "description": "Boxer Stripes hecho de jersey rayado 100% algodón",
+      "price": 7300
+    },
+    {
+      "ProductName": "BOXER COLE 4-12",
+      "urlImage": "Niños/RopaInterior/ropaInterior4.webp",
+      "description": "Boxer Cole, cintura con elástico y botón decorativo",
+      "price": 7400
+    }
+  ],
+  "Pijama":[
+    {
+      "ProductName": "Pijama infantil manga larga Dino Bones",
+      "urlImage": "Niños/Pijamas/pijama1.webp",
+      "description": "Pijama infantil de jersey manga larga y pantalon",
+      "price": 7100
+    },
+    {
+        "ProductName": "Pijama infantil Motokid",
+      "urlImage": "Niños/Pijamas/pijama2.webp",
+        "description": "Pijama infantil de jersey remera manga larga y pantalon con puños",
+        "price": 7200
+      },
+      {
+        "ProductName": "Pijama infantil manga larga Dibu",
+      "urlImage": "Niños/Pijamas/pijama3.webp",
+        "description": "Pijama infantil de jersey remera manga larga y pantalón",
+        "price": 7300
+      },
+      {
+        "ProductName": "Pijama infantil manga larga Birdie",
+      "urlImage": "Niños/Pijamas/pijama4.webp",
+        "description": "Pijama infantil de jersey remera manga larga y pantalón",
+        "price": 7400
+      },
+      {
+        "ProductName": "Pijama infantil Game On",
+      "urlImage": "Niños/Pijamas/pijama5.webp",
+        "description": "Pijama infantil manga corta y short",
+        "price": 7500
+      },
+      {
+        "ProductName": "Pijama infantil Stars",
+      "urlImage": "Niños/Pijamas/pijama6.webp",
+        "description": "Pijama infantil sin mangas y short",
+        "price": 7600
+      }
+    ],
+    "Medias":[
+      {
+        "ProductName": "1/2 Caña infantil Rayas",
+        "urlImage": "Niños/Medias/medias1.webp",
+        "description": "Par de medias 1/2 caña infantiles rayadas",
+        "price": 7100
+      },
+      {
+          "ProductName": "1/2 Caña infantil Teddy",
+          "urlImage": "Niños/Medias/medias2.webp",
+          "description": "Par de medias 1/2 caña infantiles con ositos",
+          "price": 7200
+        },
+        {
+          "ProductName": "1/2 Caña infantil Ositos",
+          "urlImage": "Niños/Medias/medias3.webp",
+          "description": "Par de medias 1/2 caña infantiles con ositos",
+          "price": 7300
+        },
+        {
+          "ProductName": "1/2 Caña infantil Motokid",
+          "urlImage": "Niños/Medias/medias4.webp",
+          "description": "Par de medias 1/2 caña infantiles con motivo motokid",
+          "price": 7400
+        },
+        {
+          "ProductName": "1/2 Caña infantil Rayos",
+          "urlImage": "Niños/Medias/medias5.webp",
+          "description": "Par de medias 1/2 caña infantil con motivo rayos",
+          "price": 7500
+        },
+        {
+          "ProductName": "Soquete infantil Jaguar",
+          "urlImage": "Niños/Medias/medias6.webp",
+          "description": "Soquete nena animal print",
+          "price": 7600
+        },
+        {
+          "ProductName": "Soquete infantil Tigers Club",
+          "urlImage": "Niños/Medias/medias7.webp",
+          "description": "Soquete nena tigres",
+          "price": 7700
+        }
+      ]
+}
+}
